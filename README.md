@@ -34,7 +34,16 @@ For example:
 
 If you want to use the vmess+websocket solution, you can set only 1 variable. Default port for vmess+websocket is 8080. 
 
-ID : vmess ID, default d42e30bc-f02c-40c1-92b9-883739bf0dcf  
+ID : vmess ID, default d42e30bc-f02c-40c1-92b9-883739bf0dcf 
+
+Install vmess+websocket solution on your server using docker command below.
+```
+docker run -d --restart always \
+     --name xray \
+     -e "ID=YOUR_ID" \
+     -p 8080:8080 \
+     22ee0277/docker-xray
+```
 
 The config.json template:  
 ```
@@ -82,6 +91,17 @@ If you want to use the vless+gRPC+Reality solution, you can set 2 variables. Def
 
 ID : vless ID, default d42e30bc-f02c-40c1-92b9-883739bf0dcf
 SNI : Your SNI, default twitter.com
+
+Install vless+gRPC+Reality solution on your server using docker command below.
+```
+docker run -d --restart always \
+     --name xray \
+     -e "ID=YOUR_ID" \
+     -e "SNI=YOUR_SNI" \
+     -p 8080:8080 \
+     -p 2083:2083 \
+     22ee0277/docker-xray
+```
 
 The config.json template:
 ```
