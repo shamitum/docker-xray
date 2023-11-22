@@ -10,7 +10,6 @@ rm ./Xray-linux-64.zip
 
 if test -z "$CONFIG"
 then
-    PORT=${PORT:-"2083"}
     ID=${ID:-"d42e30bc-f02c-40c1-92b9-883739bf0dcf"}
     SNI=${SNI:-"twitter.com"}
 
