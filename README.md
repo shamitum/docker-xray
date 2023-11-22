@@ -32,7 +32,7 @@ For example:
 }
 ```
 
-If you want to use the vmess+websocket solution, you can set only 1 variable:  
+If you want to use the vmess+websocket solution, you can set only 1 variable. Default port for vmess+websocket is 8080. 
 
 ID : vmess ID, default d42e30bc-f02c-40c1-92b9-883739bf0dcf  
 
@@ -76,7 +76,7 @@ Config URL for vmess+ws soluton,
 vmess://eyJhZGQiOiJZT1VSX0lQIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IllPVVJfSUQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwODAiLCJwcyI6IlZNRVNTIFdTIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
 ```
 
-If you want to use the vless+gRPC+Reality solution, you can set 2 variables:
+If you want to use the vless+gRPC+Reality solution, you can set 2 variables. Default port for vless+gRPC+Reality is 2083.
 
 ID : vless ID, default d42e30bc-f02c-40c1-92b9-883739bf0dcf
 SNI : Your SNI, default twitter.com
