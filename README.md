@@ -33,7 +33,7 @@ For example:
 
 If you want to use the vmess+websocket solution, you can set only 1 variable:  
 
-ID : vless ID, default d42e30bc-f02c-40c1-92b9-883739bf0dcf  
+ID : vmess ID, default d42e30bc-f02c-40c1-92b9-883739bf0dcf  
 
 The config.json template:  
 ```
@@ -72,7 +72,7 @@ The config.json template:
 ```
 Config URL for vmess+ws soluton,
 ```
-vless://YOUR_ID@YOUR_IP:2083?mode=multi&security=reality&encryption=none&pbk=7SeUnjm4sDSlop0CwJO1el8VswduF0hO1GlAyYaIgE0&fp=chrome&spx=%2F&type=grpc&serviceName=&sni=YOUR_SNI&sid=90ae3e6a#VLESS+gRPC+REALITY
+vmess://eyJhZGQiOiJZT1VSX0lQIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IllPVVJfSUQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwODAiLCJwcyI6IlZNRVNTIFdTIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
 ```
 
 If you want to use the vless+gRPC+Reality solution, you can set 2 variables:
@@ -140,6 +140,6 @@ The config.json template:
 ```
 Config URL for vmess+ws soluton,
 ```
-vmess://eyJhZGQiOiJZT1VSX0lQIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IllPVVJfSUQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwODAiLCJwcyI6IlZNRVNTIFdTIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
+vless://YOUR_ID@YOUR_IP:2083?mode=multi&security=reality&encryption=none&pbk=7SeUnjm4sDSlop0CwJO1el8VswduF0hO1GlAyYaIgE0&fp=chrome&spx=%2F&type=grpc&serviceName=&sni=YOUR_SNI&sid=90ae3e6a#VLESS+gRPC+REALITY
 ```
 Tested in Azure container.
