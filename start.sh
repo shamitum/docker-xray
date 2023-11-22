@@ -10,9 +10,9 @@ rm ./Xray-linux-64.zip
 
 if test -z "$CONFIG"
 then
-    PORT=${PORT:-443}
+    PORT=${PORT:-"443"}
     ID=${ID:-"d42e30bc-f02c-40c1-92b9-883739bf0dcf"}
-    WSPATH=${WSPATH:-"/index.html"}
+    SNI=${SNI:-"twitter.com"}
 
     cat > ./config.json <<EOF
 {
