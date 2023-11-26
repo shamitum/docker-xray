@@ -80,7 +80,7 @@ The config.json template:
       "tag": "inbound-8080"
     }
 ```
-Config URL for vmess+ws soluton,
+Config URL for vmess+ws solution,
 ```
 vmess://eyJhZGQiOiJZT1VSX0lQIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IllPVVJfSUQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwODAiLCJwcyI6IlZNRVNTIFdTIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
 ```
@@ -161,7 +161,7 @@ The config.json template:
       "tag": "inbound-2083"
     }
 ```
-Config URL for vmess+ws soluton,
+Config URL for vmess+ws solution,
 ```
 vless://YOUR_ID@YOUR_IP:2083?mode=multi&security=reality&encryption=none&pbk=7SeUnjm4sDSlop0CwJO1el8VswduF0hO1GlAyYaIgE0&fp=chrome&spx=%2F&type=grpc&serviceName=&sni=YOUR_SNI&sid=90ae3e6a#VLESS+gRPC+REALITY
 ```
